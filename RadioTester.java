@@ -1,0 +1,97 @@
+class RadioTester{
+
+   public static void main(String radio[]){
+	   Radio radio1 = new Radio();
+       radio1.model = "Sony";
+       radio1.frequency = "90";
+       radio1.stationName = "radio hip_hop";
+	   radio1.volume = 10;
+	   
+	   System.out.println("1st copy of Radio :");
+	   System.out.println( "Radio :"+ radio1.model +"\n "+"frequency :"+ radio1.frequency +" \n"+"stationName :"+ radio1.stationName +"\n "+"volume :"+ radio1.volume );
+	   radio1.toHear();
+	   System.out.println("-------------------------------------------------------------------");	
+	   Radio radio2 = new Radio();
+       radio2.model = "Panasonic";
+       radio2.frequency = "95";
+       radio2.stationName = "91.1";
+	   radio2.volume = 20;
+	   radio2.toHear();
+	   System.out.println("2nd copy of Radio :");
+	   System.out.println("Radio :"+ radio2.model +"\n "+"frequency :"+ radio2.frequency +" \n"+"stationName :"+ radio2.stationName +"\n "+"volume :"+ radio2.volume ); 
+	   System.out.println("-------------------------------------------------------------------");
+	     
+	   Radio radio3 = new Radio();
+       radio3.model = "Philips";
+       radio3.frequency = "100";
+       radio3.stationName = "Radio Mirchi";
+	   radio3.volume = 30;
+	   radio3.toHear();
+	   System.out.println("3rd copy of Radio :");
+	   System.out.println( "Radio :"+ radio3.model +"\n "+"frequency :"+ radio3.frequency +" \n"+"stationName :"+ radio3.stationName +"\n "+"volume :"+ radio3.volume ); 
+	   System.out.println("-------------------------------------------------------------------");
+	   Radio radio4 = new Radio();
+       radio4.model = "LG";
+       radio4.frequency = "105";
+       radio4.stationName = "RED FM";
+	   radio4.volume = 40;
+	   radio4.toHear();
+	   System.out.println("4th copy of Radio :");
+	   System.out.println("Radio :"+  radio4.model +"\n "+"frequency :"+ radio4.frequency +" \n"+"stationName :"+ radio4.stationName +"\n "+"volume :"+radio4.volume ); 
+	    System.out.println("-------------------------------------------------------------------");    
+	    Radio radio5 = new Radio();
+       radio5.model = "JBL";
+       radio5.frequency = "110";
+       radio5.stationName = "Rock FM";
+	   radio5.volume = 50;
+	   radio5.toHear();
+	   System.out.println("5th copy of Radio :");
+	   System.out.println( "Radio :"+ radio5.model +"\n "+"frequency :"+ radio5.frequency +" \n"+"stationName :"+ radio5.stationName +"\n "+"volume :"+ radio5.volume ); 
+	    System.out.println("-------------------------------------------------------------------");
+		Radio radio6 = new Radio();
+       radio6.model = "Bose";
+       radio6.frequency = "115";
+       radio6.stationName = "Pop Hits";
+	   radio6.volume = 60;
+	   radio6.toHear();
+	   System.out.println("6th copy of Radio :");
+	   System.out.println("Radio :"+  radio6.model +"\n "+ "frequency :"+radio6.frequency +" \n"+"stationName :"+ radio6.stationName +"\n "+"volume :"+ radio6.volume ); 
+	    System.out.println("-------------------------------------------------------------------");
+	    Radio radio7 = new Radio();
+       radio7.model = "Samsung";
+       radio7.frequency = "120";
+       radio7.stationName = "Classic Jazz";
+	   radio7.volume = 70;
+	   radio7.toHear();
+	   System.out.println("7th copy of Radio :");
+	   System.out.println("Radio :"+  radio7.model +"\n "+"frequency :"+ radio7.frequency +" \n"+"stationName :"+ radio7.stationName +"\n "+"volume :"+ radio7.volume ); 
+	    System.out.println("-------------------------------------------------------------------");
+	    Radio radio8 = new Radio();
+       radio8.model = "Yamaha";
+       radio8.frequency = "125";
+       radio8.stationName = "Country Tunes";
+	   radio8.volume = 80;
+	   radio8.toHear();
+	   System.out.println("8th copy of Radio :");
+	   System.out.println("Radio :"+  radio8.model +"\n "+"frequency :"+ radio8.frequency +" \n"+"stationName :"+ radio8.stationName +"\n "+"volume :"+ radio8.volume ); 
+	    System.out.println("-------------------------------------------------------------------");
+	    Radio radio9 = new Radio();
+       radio9.model = "Sennheiser";
+       radio9.frequency = "130";
+       radio9.stationName = "Hip Hop Nation";
+	   radio9.volume = 90;
+	   radio9.toHear();
+	   System.out.println("9th copy of Radio :");
+	   System.out.println("Radio :"+  radio9.model +"\n "+"frequency :"+ radio9.frequency +" \n"+"stationName :"+ radio9.stationName +"\n "+"volume :"+ radio9.volume ); 
+	    System.out.println("-------------------------------------------------------------------");
+	    Radio radio10 = new Radio();
+       radio10.model = "Beats";
+       radio10.frequency = "135";
+       radio10.stationName = "Electronic Beats";
+	   radio10.volume = 100;
+	   radio10.toHear();
+	   System.out.println("10th copy of Radio :");
+	   System.out.println("Radio :"+  radio10.model +"\n "+"frequency :"+ radio10.frequency +" \n"+"stationName :"+ radio10.stationName +"\n "+"volume :"+ radio10.volume ); 
+   }
+}
+  

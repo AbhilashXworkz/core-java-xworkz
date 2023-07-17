@@ -1,0 +1,97 @@
+class MusicalInstrumentsTester{
+
+   public static void main(String mi[]){
+	   MusicalInstruments musicalInstruments1 = new MusicalInstruments();
+       musicalInstruments1.name = "Acoustic Guitar";
+       musicalInstruments1.manufacturer = "Taylor";
+       musicalInstruments1.type = "Stringed";
+	   musicalInstruments1.price = 999.99;
+	   
+	   System.out.println("1st copy of MusicalInstruments :");
+	   System.out.println( "MusicalInstruments :"+ musicalInstruments1.name +"\n "+"manufacturer :"+ musicalInstruments1.manufacturer +" \n"+"type :"+ musicalInstruments1.type +"\n "+"price :"+ musicalInstruments1.price );
+	   musicalInstruments1.toPlay();
+	   System.out.println("-------------------------------------------------------------------");	
+	   MusicalInstruments musicalInstruments2 = new MusicalInstruments();
+       musicalInstruments2.name = "Electric Guitar";
+       musicalInstruments2.manufacturer = "Fender";
+       musicalInstruments2.type = "Stringed";
+	   musicalInstruments2.price = 1299.99;
+	   musicalInstruments2.toPlay();
+	   System.out.println("2nd copy of MusicalInstruments :");
+	   System.out.println("MusicalInstruments :"+ musicalInstruments2.name +"\n "+"manufacturer :"+ musicalInstruments2.manufacturer +" \n"+"type :"+ musicalInstruments2.type +"\n "+"price :"+ musicalInstruments2.price ); 
+	   System.out.println("-------------------------------------------------------------------");
+	     
+	   MusicalInstruments musicalInstruments3 = new MusicalInstruments();
+       musicalInstruments3.name = "Piano";
+       musicalInstruments3.manufacturer = "Yamaha";
+       musicalInstruments3.type = "Keyboard";
+	   musicalInstruments3.price = 4999.99;
+	   musicalInstruments3.toPlay();
+	   System.out.println("3rd copy of MusicalInstruments :");
+	   System.out.println( "MusicalInstruments :"+ musicalInstruments3.name +"\n "+"manufacturer :"+ musicalInstruments3.manufacturer +" \n"+"type :"+ musicalInstruments3.type +"\n "+"price :"+ musicalInstruments3.price ); 
+	   System.out.println("-------------------------------------------------------------------");
+	   MusicalInstruments musicalInstruments4 = new MusicalInstruments();
+       musicalInstruments4.name = "Drum Kit";
+       musicalInstruments4.manufacturer = "Pearl";
+       musicalInstruments4.type = "Percussion";
+	   musicalInstruments4.price = 1999.99;
+	   musicalInstruments4.toPlay();
+	   System.out.println("4th copy of MusicalInstruments :");
+	   System.out.println("MusicalInstruments :"+  musicalInstruments4.name +"\n "+"manufacturer :"+ musicalInstruments4.manufacturer +" \n"+"type :"+ musicalInstruments4.type +"\n "+"price :"+musicalInstruments4.price ); 
+	    System.out.println("-------------------------------------------------------------------");    
+	    MusicalInstruments musicalInstruments5 = new MusicalInstruments();
+       musicalInstruments5.name = "Violin";
+       musicalInstruments5.manufacturer = "Stradivarius";
+       musicalInstruments5.type = "Stringed";
+	   musicalInstruments5.price = 2999.99;
+	   musicalInstruments5.toPlay();
+	   System.out.println("5th copy of MusicalInstruments :");
+	   System.out.println( "MusicalInstruments :"+ musicalInstruments5.name +"\n "+"manufacturer :"+ musicalInstruments5.manufacturer +" \n"+"type :"+ musicalInstruments5.type +"\n "+"price :"+ musicalInstruments5.price ); 
+	    System.out.println("-------------------------------------------------------------------");
+		MusicalInstruments musicalInstruments6 = new MusicalInstruments();
+       musicalInstruments6.name = "Saxophone";
+       musicalInstruments6.manufacturer = "Selmer";
+       musicalInstruments6.type = "Woodwind";
+	   musicalInstruments6.price = 1499.99;
+	   musicalInstruments6.toPlay();
+	   System.out.println("6th copy of MusicalInstruments :");
+	   System.out.println("MusicalInstruments :"+  musicalInstruments6.name +"\n "+ "manufacturer :"+musicalInstruments6.manufacturer +" \n"+"type :"+ musicalInstruments6.type +"\n "+"price :"+ musicalInstruments6.price ); 
+	    System.out.println("-------------------------------------------------------------------");
+	    MusicalInstruments musicalInstruments7 = new MusicalInstruments();
+       musicalInstruments7.name = "Trumpet";
+       musicalInstruments7.manufacturer = "Bach";
+       musicalInstruments7.type = "Brass";
+	   musicalInstruments7.price = 799.99;
+	   musicalInstruments7.toPlay();
+	   System.out.println("7th copy of MusicalInstruments :");
+	   System.out.println("MusicalInstruments :"+  musicalInstruments7.name +"\n "+"manufacturer :"+ musicalInstruments7.manufacturer +" \n"+"type :"+ musicalInstruments7.type +"\n "+"price :"+ musicalInstruments7.price ); 
+	    System.out.println("-------------------------------------------------------------------");
+	    MusicalInstruments musicalInstruments8 = new MusicalInstruments();
+       musicalInstruments8.name = "Flute";
+       musicalInstruments8.manufacturer = "Yamaha";
+       musicalInstruments8.type = "Woodwind";
+	   musicalInstruments8.price = 499.99;
+	   musicalInstruments8.toPlay();
+	   System.out.println("8th copy of MusicalInstruments :");
+	   System.out.println("MusicalInstruments :"+  musicalInstruments8.name +"\n "+"manufacturer :"+ musicalInstruments8.manufacturer +" \n"+"type :"+ musicalInstruments8.type +"\n "+"price :"+ musicalInstruments8.price ); 
+	    System.out.println("-------------------------------------------------------------------");
+	    MusicalInstruments musicalInstruments9 = new MusicalInstruments();
+       musicalInstruments9.name = "Clarinet";
+       musicalInstruments9.manufacturer = "Buffet Crampon";
+       musicalInstruments9.type = "Woodwind";
+	   musicalInstruments9.price =  899.99;
+	   musicalInstruments9.toPlay();
+	   System.out.println("9th copy of MusicalInstruments :");
+	   System.out.println("MusicalInstruments :"+  musicalInstruments9.name +"\n "+"manufacturer :"+ musicalInstruments9.manufacturer +" \n"+"type :"+ musicalInstruments9.type +"\n "+"price :"+ musicalInstruments9.price ); 
+	    System.out.println("-------------------------------------------------------------------");
+	    MusicalInstruments musicalInstruments10 = new MusicalInstruments();
+       musicalInstruments10.name = "Bass Guitar";
+       musicalInstruments10.manufacturer = "Ibanez";
+       musicalInstruments10.type = "Stringed";
+	   musicalInstruments10.price = 899.99;
+	   musicalInstruments10.toPlay();
+	   System.out.println("10th copy of MusicalInstruments :");
+	   System.out.println("MusicalInstruments :"+  musicalInstruments10.name +"\n "+"manufacturer :"+ musicalInstruments10.manufacturer +" \n"+"type :"+ musicalInstruments10.type +"\n "+"price :"+ musicalInstruments10.price ); 
+   }
+}
+  

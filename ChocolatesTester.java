@@ -1,0 +1,97 @@
+class ChocolatesTester{
+
+   public static void main(String chocolates[]){
+	   Chocolates chocolate1 = new Chocolates();
+       chocolate1.name = "Dark Chocolate";
+       chocolate1.flavour = "Bitter";
+       chocolate1.quantity = "10";
+	   chocolate1.price = 50;
+	   
+	   System.out.println("1st copy of Chocolates :");
+	   System.out.println( "Chocolates :"+ chocolate1.name +"\n "+"flavour :"+ chocolate1.flavour +" \n"+"quantity :"+ chocolate1.quantity +"\n "+"price :"+ chocolate1.price );
+	   chocolate1.yummy();
+	   System.out.println("-------------------------------------------------------------------");	
+	   Chocolates chocolate2 = new Chocolates();
+       chocolate2.name = "Milk Chocolate";
+       chocolate2.flavour = "Classic";
+       chocolate2.quantity = "14";
+	   chocolate2.price = 60;
+	   chocolate2.yummy();
+	   System.out.println("2nd copy of Chocolates :");
+	   System.out.println("Chocolates :"+ chocolate2.name +"\n "+"flavour :"+ chocolate2.flavour +" \n"+"quantity :"+ chocolate2.quantity +"\n "+"price :"+ chocolate2.price ); 
+	   System.out.println("-------------------------------------------------------------------");
+	     
+	   Chocolates chocolate3 = new Chocolates();
+       chocolate3.name = "White Chocolate";
+       chocolate3.flavour = "Creamy";
+       chocolate3.quantity = "15";
+	   chocolate3.price = 65;
+	   chocolate3.yummy();
+	   System.out.println("3rd copy of Chocolates :");
+	   System.out.println( "Chocolates :"+ chocolate3.name +"\n "+"flavour :"+ chocolate3.flavour +" \n"+"quantity :"+ chocolate3.quantity +"\n "+"price :"+ chocolate3.price ); 
+	   System.out.println("-------------------------------------------------------------------");
+	   Chocolates chocolate4 = new Chocolates();
+       chocolate4.name = "Hazelnut Chocolate";
+       chocolate4.flavour = "Nutty";
+       chocolate4.quantity = "12";
+	   chocolate4.price = 80;
+	   chocolate4.yummy();
+	   System.out.println("4th copy of Chocolates :");
+	   System.out.println("Chocolates :"+  chocolate4.name +"\n "+"flavour :"+ chocolate4.flavour +" \n"+"quantity :"+ chocolate4.quantity +"\n "+"price :"+chocolate4.price ); 
+	    System.out.println("-------------------------------------------------------------------");    
+	    Chocolates chocolate5 = new Chocolates();
+       chocolate5.name = "Caramel Chocolate";
+       chocolate5.flavour = "Sweet";
+       chocolate5.quantity = "8";
+	   chocolate5.price = 300;
+	   chocolate5.yummy();
+	   System.out.println("5th copy of Chocolates :");
+	   System.out.println( "Chocolates :"+ chocolate5.name +"\n "+"flavour :"+ chocolate5.flavour +" \n"+"quantity :"+ chocolate5.quantity +"\n "+"price :"+ chocolate5.price ); 
+	    System.out.println("-------------------------------------------------------------------");
+		Chocolates chocolate6 = new Chocolates();
+       chocolate6.name = "Mint Chocolate";
+       chocolate6.flavour = "Refreshing";
+       chocolate6.quantity = "18";
+	   chocolate6.price = 35;
+	   chocolate6.yummy();
+	   System.out.println("6th copy of Chocolates :");
+	   System.out.println("Chocolates :"+  chocolate6.name +"\n "+ "flavour :"+chocolate6.flavour +" \n"+"quantity :"+ chocolate6.quantity +"\n "+"price :"+ chocolate6.price ); 
+	    System.out.println("-------------------------------------------------------------------");
+	    Chocolates chocolate7 = new Chocolates();
+       chocolate7.name = "Strawberry Chocolate";
+       chocolate7.flavour = "Fruity";
+       chocolate7.quantity = "14";
+	   chocolate7.price = 40;
+	   chocolate7.yummy();
+	   System.out.println("7th copy of Chocolates :");
+	   System.out.println("Chocolates :"+  chocolate7.name +"\n "+"flavour :"+ chocolate7.flavour +" \n"+"quantity :"+ chocolate7.quantity +"\n "+"price :"+ chocolate7.price ); 
+	    System.out.println("-------------------------------------------------------------------");
+	    Chocolates chocolate8 = new Chocolates();
+       chocolate8.name = "Orange Chocolate";
+       chocolate8.flavour = "Citrus";
+       chocolate8.quantity = "10";
+	   chocolate8.price = 45;
+	   chocolate8.yummy();
+	   System.out.println("8th copy of Chocolates :");
+	   System.out.println("Chocolates :"+  chocolate8.name +"\n "+"flavour :"+ chocolate8.flavour +" \n"+"quantity :"+ chocolate8.quantity +"\n "+"price :"+ chocolate8.price ); 
+	    System.out.println("-------------------------------------------------------------------");
+	    Chocolates chocolate9 = new Chocolates();
+       chocolate9.name = "Coconut Chocolate";
+       chocolate9.flavour = "Exotic";
+       chocolate9.quantity = "6";
+	   chocolate9.price = 55;
+	   chocolate9.yummy();
+	   System.out.println("9th copy of Chocolates :");
+	   System.out.println("Chocolates :"+  chocolate9.name +"\n "+"flavour :"+ chocolate9.flavour +" \n"+"quantity :"+ chocolate9.quantity +"\n "+"price :"+ chocolate9.price ); 
+	    System.out.println("-------------------------------------------------------------------");
+	    Chocolates chocolate10 = new Chocolates();
+       chocolate10.name = "Raspberry Chocolate";
+       chocolate10.flavour = "Tangy";
+       chocolate10.quantity = "16";
+	   chocolate10.price = 56;
+	   chocolate10.yummy();
+	   System.out.println("10th copy of Chocolates :");
+	   System.out.println("Chocolates :"+  chocolate10.name +"\n "+"flavour :"+ chocolate10.flavour +" \n"+"quantity :"+ chocolate10.quantity +"\n "+"price :"+ chocolate10.price ); 
+   }
+}
+  

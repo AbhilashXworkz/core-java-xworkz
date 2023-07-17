@@ -1,0 +1,97 @@
+class ToysTester{
+
+   public static void main(String toys[]){
+	   Toys toys1 = new Toys();
+       toys1.name = "Teddy Bear";
+       toys1.color = "Brown";
+       toys1.type = "Stuffed Animal";
+	   toys1.price = 59;
+	   
+	   System.out.println("1st copy of Toys :");
+	   System.out.println( "Toys :"+ toys1.name +"\n "+"color :"+ toys1.color +" \n"+"type :"+ toys1.type +"\n "+"price :"+ toys1.price );
+	   toys1.play();
+	   System.out.println("-------------------------------------------------------------------");	
+	   Toys toys2 = new Toys();
+       toys2.name = "LEGO Set";
+       toys2.color = "Multi-color";
+       toys2.type = "Building Blocks";
+	   toys2.price = 60;
+	   toys2.play();
+	   System.out.println("2nd copy of Toys :");
+	   System.out.println("Toys :"+ toys2.name +"\n "+"color :"+ toys2.color +" \n"+"type :"+ toys2.type +"\n "+"price :"+ toys2.price ); 
+	   System.out.println("-------------------------------------------------------------------");
+	     
+	   Toys toys3 = new Toys();
+       toys3.name = "Barbie Doll";
+       toys3.color = "Pink";
+       toys3.type = "Fashion Doll";
+	   toys3.price = 64;
+	   toys3.play();
+	   System.out.println("3rd copy of Toys :");
+	   System.out.println( "Toys :"+ toys3.name +"\n "+"color :"+ toys3.color +" \n"+"type :"+ toys3.type +"\n "+"price :"+ toys3.price ); 
+	   System.out.println("-------------------------------------------------------------------");
+	   Toys toys4 = new Toys();
+       toys4.name = "Hot Wheels Car";
+       toys4.color = "Red";
+       toys4.type = "Die-cast Car";
+	   toys4.price = 86;
+	   toys4.play();
+	   System.out.println("4th copy of Toys :");
+	   System.out.println("Toys :"+  toys4.name +"\n "+"color :"+ toys4.color +" \n"+"type :"+ toys4.type +"\n "+"price :"+toys4.price ); 
+	    System.out.println("-------------------------------------------------------------------");    
+	    Toys toys5 = new Toys();
+       toys5.name = "Nerf Blaster";
+       toys5.color = "Blue";
+       toys5.type = "Foam Dart Gun";
+	   toys5.price = 300;
+	   toys5.play();
+	   System.out.println("5th copy of Toys :");
+	   System.out.println( "Toys :"+ toys5.name +"\n "+"color :"+ toys5.color +" \n"+"type :"+ toys5.type +"\n "+"price :"+ toys5.price ); 
+	    System.out.println("-------------------------------------------------------------------");
+		Toys toys6 = new Toys();
+       toys6.name = "Play-Doh Set";
+       toys6.color = "Various";
+       toys6.type = "Modeling Clay";
+	   toys6.price = 75;
+	   toys6.play();
+	   System.out.println("6th copy of Toys :");
+	   System.out.println("Toys :"+  toys6.name +"\n "+ "color :"+toys6.color +" \n"+"type :"+ toys6.type +"\n "+"price :"+ toys6.price ); 
+	    System.out.println("-------------------------------------------------------------------");
+	    Toys toys7 = new Toys();
+       toys7.name = "Remote Control Helicopter";
+       toys7.color = "Silver";
+       toys7.type = "RC Toy";
+	   toys7.price = 48;
+	   toys7.play();
+	   System.out.println("7th copy of Toys :");
+	   System.out.println("Toys :"+  toys7.name +"\n "+"color :"+ toys7.color +" \n"+"type :"+ toys7.type +"\n "+"price :"+ toys7.price ); 
+	    System.out.println("-------------------------------------------------------------------");
+	    Toys toys8 = new Toys();
+       toys8.name = "Board Game";
+       toys8.color = "Multi-color";
+       toys8.type = "Strategy Game";
+	   toys8.price = 42;
+	   toys8.play();
+	   System.out.println("8th copy of Toys :");
+	   System.out.println("Toys :"+  toys8.name +"\n "+"color :"+ toys8.color +" \n"+"type :"+ toys8.type +"\n "+"price :"+ toys8.price ); 
+	    System.out.println("-------------------------------------------------------------------");
+	    Toys toys9 = new Toys();
+       toys9.name = "Puzzle";
+       toys9.color = "Various";
+       toys9.type = "Brain Teaser";
+	   toys9.price = 55;
+	   toys9.play();
+	   System.out.println("9th copy of Toys :");
+	   System.out.println("Toys :"+  toys9.name +"\n "+"color :"+ toys9.color +" \n"+"type :"+ toys9.type +"\n "+"price :"+ toys9.price ); 
+	    System.out.println("-------------------------------------------------------------------");
+	    Toys toys10 = new Toys();
+       toys10.name = "Yo-Yo";
+       toys10.color = "Green";
+       toys10.type = "Skill Toy";
+	   toys10.price = 100;
+	   toys10.play();
+	   System.out.println("10th copy of Toys :");
+	   System.out.println("Toys :"+  toys10.name +"\n "+"color :"+ toys10.color +" \n"+"type :"+ toys10.type +"\n "+"price :"+ toys10.price ); 
+   }
+}
+  
